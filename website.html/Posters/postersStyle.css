@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap');
+
+/* Most of code copied from indexStyle.css */
+
+body {
+    min-height:100%;
+    background:linear-gradient(0deg, hsla(0, 0%, 13%, 0.643), hsla(0, 0%, 13%, 0.643)), url(/Images/Background.jpeg);
+    background-size:cover;
+}
+
+h1 {
+    color: #eee;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 400%;
+    padding-left: 30px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.menu {
+    display:inline-flex;
+    flex-direction: column;   
+}
+
+.menu a {
+    color:#eee;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+.menuItem {
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuItem:hover a {
+    text-decoration: underline;
+}
+
+.menu a {
+    font-size: 20px;
+}
+
+.Social {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}

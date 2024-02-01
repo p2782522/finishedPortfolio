@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap');
+
+/* The code below labelled "body" was copied from a website called 'stackoverflow' at this link: https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
+
+body { /* This Element allows me to take out a border around my background image */
+    min-height:100%;
+    background:linear-gradient(0deg, hsla(0, 0%, 13%, 0.643), hsla(0, 0%, 13%, 0.643)), url(/Images/Background.jpeg);
+    background-size:cover; /* This style tells the image to cover the whole page */
+}
+
+h1 {
+    color: #eee;
+    font-family: 'Rajdhani', sans-serif; /* Defines font */
+    font-size: 400%; /* Defines size of the font */
+    padding-left: 30px; /* Moves heading to the left slightly */
+}
+
+.container1 {
+    display: flex; /* Fills in Header space*/
+}
+
+.container {
+    display: flex;
+    padding: 20px; /* Increases space on top, bottom, left and right */
+}
+
+.content {
+    flex-grow: 1; /* Defines how much of containers remaining space should be taken up */
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.menu {
+    display:inline-flex; /* Lines up menu with video */
+    flex-direction: column; /* Puts menu in a column */
+}
+
+.menu a {
+    color:#eee;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none; /* Makes sure there is no decoration on text such as underlines or dotted lines*/
+    margin: 10px; /* Inserts space between the item and its border */
+    
+}
+
+.menuItem {
+    border-radius: 10px; /* Increases border size */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuItem:hover a {
+    text-decoration: underline; /* this is how I ensured all font to be correct*/
+}
+
+.menu a {
+    font-size: 20px;
+}
+
+.Social {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
